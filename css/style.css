@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding-top: 1%;
+}
+
+.row-2 {
+    background-color: black;
+    color: white;
+    padding-top: 1%;
+}
+
+.col {
+    margin: 1% 1% 2% 1%;
+    border: 2px solid white;
+    padding: 1%;
+
+}
+
+.col ul {
+    list-style-type: none;
+}
+
+h1{
+    margin-left: 1%;
+    text-transform: capitalize;
+    font-weight: bold;
+}
